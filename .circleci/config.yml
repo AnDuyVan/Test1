@@ -18,6 +18,6 @@ jobs:
             SCAN_SCHEME: WebTests
 
 workflows:
-  - test:
+  test:
     jobs:
     - build-and-test
